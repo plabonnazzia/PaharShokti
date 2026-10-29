@@ -2,7 +2,7 @@
 
 **An AI-driven solar microgrid flexibility prototype for off-grid Chittagong Hill Tracts (CHT) communities — prioritizing limited shared battery storage toward what matters most to women: emergency clinic power, evening income-generating lighting, and water access.**
 
-🔗 **Live Demo:** [paharshokti.vercel.app](#) *(update after deploying)*
+🔗 **Live Demo:** [paharshokti.vercel.app](#) **
 
 ---
 
