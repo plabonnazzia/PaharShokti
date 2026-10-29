@@ -90,7 +90,7 @@ This is a **proof-of-concept prototype**, built for a hackathon/forum applicatio
 
 ---
 
-## 🎯 Alignment with IRENA's Youth Forum Objectives
+## 🎯 Alignment with SDG Objectives
 
 | Objective | How PaharShokti Addresses It |
 |---|---|
