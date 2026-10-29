@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #f7f6f1;
+    color: #0f291e;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes energyStream {
+  from {
+    stroke-dashoffset: 28;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.energy-flow-active {
+  stroke-dasharray: 8 6;
+  animation: energyStream 0.9s linear infinite;
+}
+
+.energy-flow-priority {
+  stroke-dasharray: 10 5;
+  animation: energyStream 0.55s linear infinite;
+}
+
+.energy-flow-throttled {
+  stroke-dasharray: 5 9;
+  animation: energyStream 2.1s linear infinite;
+}
+
+.energy-flow-scheduled {
+  stroke-dasharray: 6 7;
+  animation: energyStream 1.6s linear infinite;
+}
